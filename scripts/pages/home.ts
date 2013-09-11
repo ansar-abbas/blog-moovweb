@@ -1,1 +1,5 @@
-# Place holder/example file
+$$(".blog-content"){
+	$$("> p > audio"){
+		remove()
+	}
+}

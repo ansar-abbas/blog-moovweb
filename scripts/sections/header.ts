@@ -1,5 +1,11 @@
-# $('./body') {
-#   insert_top("header", class: "_header") {
-#     Move stuff here
-#   }
-# }
+$$("header") {
+  $$("a.blog-logo") {
+    inner("")
+    insert("img", src: "https://s3.amazonaws.com/moovweb-apollo/logo.png")
+  }
+  $$("form.form-search") {
+    $$("input") {
+      attribute("placeholder", "Search here...")
+    }
+  }
+}
