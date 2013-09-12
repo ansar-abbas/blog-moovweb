@@ -1,5 +1,5 @@
 // Reset file for standardizing the page
-// @import "globals/_reset";
+@import "globals/_reset";
 
 // Base file contains all the global styles
 @import "globals/_base";
@@ -13,6 +13,7 @@
 // Header & Footer
 @import "sections/_header";
 @import "sections/_footer";
+@import "sections/_content";
 
 // Pages
 @import "pages/_home";
